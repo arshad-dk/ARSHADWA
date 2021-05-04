@@ -754,35 +754,6 @@ dmenu = `╓───「 *_sᴏɴɢ ᴍᴇɴᴜ_* 」
 ║🎶  ${prefix}ɢᴀʀᴏx
 ║🎶  ${prefix}ᴍᴀɢɪᴄ
 ║🎶  ${prefix}ᴍᴇɴʏᴜᴋᴀɪᴋᴜ 
-║🎶  ${prefix}𝙿𝙾𝙳𝙰         
-║🎶  ${prefix}𝙱𝙸𝙴
-║🎶  ${prefix}𝙱𝙻𝙾𝙲𝙺
-║🎶  ${prefix}𝙳𝙴𝙳
-║🎶  ${prefix}𝙶𝙴𝚃
-║🎶  ${prefix}𝙺𝚄𝙽𝙳𝙰𝙽
-║🎶  ${prefix}𝙼𝙾𝙽𝙴
-║🎶  ${prefix}𝙼𝚁𝙽𝙶
-║🎶  ${prefix}𝙼𝚈𝚁𝙴
-║🎶  ${prefix}𝙿𝚄𝙽𝙳𝙴
-║🎶  ${prefix}𝙷𝙰𝚃𝙴
-║🎶  ${prefix}𝚄𝙿𝙿𝚄
-║🎶  ${prefix}𝙰𝙽𝙳𝙸
-║🎶  ${prefix}𝙺𝙴𝙻𝙸
-║🎶  ${prefix}𝙸𝙺𝙺𝙰
-║🎶  ${prefix}𝙾𝙺
-║🎶  ${prefix}𝙻𝙾𝚅𝙴
-║🎶  ${prefix}𝙰𝙽𝚃𝙷𝙰𝚂
-║🎶  ${prefix}𝙱𝚄𝚂𝚈
-║🎶  ${prefix}𝙳𝙹
-║🎶  ${prefix}𝙵𝙰𝙽𝚂
-║🎶  ${prefix}𝙷𝙴𝙻𝙻𝙾
-║🎶  ${prefix}𝙺𝙴𝚁𝙸
-║🎶  ${prefix}𝙻𝙸𝙽𝙴
-║🎶  ${prefix}𝙼𝙸𝙽𝙳
-║🎶  ${prefix}𝚁𝙰𝚂𝙷𝙴𝙴𝙳
-║🎶  ${prefix}𝚂𝙾𝚁𝚁𝚈
-║🎶  ${prefix}𝙰𝚛𝚊
-║🎶  ${prefix}𝙽𝚊𝚗𝚋𝚊𝚗
 
 ║
 ║───「 *_ᴀᴜᴅɪᴏ ᴍᴇɴᴜ_* 」
