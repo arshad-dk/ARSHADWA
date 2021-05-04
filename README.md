@@ -25,7 +25,7 @@
 ```
 
 ```bash
-> cd wav2
+> cd Jockerwap
 > bash install.sh
 ```
 
