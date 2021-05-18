@@ -70,9 +70,9 @@ const vcard = 'BEGIN:VCARD\n'
        
 const vcard1 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:JOEL SER\n'
+            + 'FN:Jocker SER\n'
             + 'ORG:Co Owner JOCKER;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=917559907434:+917559907434\n'
+            + 'TEL;type=CELL;type=VOICE;waid=919497513815:+919497513815\n'
             + 'END:VCARD'
 
 prefix = "!"
@@ -83,7 +83,7 @@ botinfo = "𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍"
 limitt = 999999999
 memberLimit = 1
 ban = []
-premium = ["918592026326@s.whatsapp.net","917559907434@s.whatsapp.net"]
+premium = ["918592026326@s.whatsapp.net","919497513815@s.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -126,8 +126,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `ʜᴇʟʟᴏ @${num.split('@')[0]}👋\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝙾𝚄𝚁 ɢʀᴏᴜᴘ 𝙽𝙴𝙽𝙱𝙰 *${mdata.subject}*\n\n ━━━━━━━━━━━━━━━
-
+				teks = `𝙴𝚗𝚗𝚎 𝚘𝚛𝚖𝚊 𝚒𝚗𝚍𝚘 @${num.split('@')[0]}😣💔\nPand Ne enne thechit poyatha 𝐍𝐭𝐡𝐚𝐲𝐚𝐥𝐮𝐦..ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝙾𝚄𝚁 ɢʀᴏᴜᴘ 𝙼𝚈 𝙴𝚇 𝙱𝚘𝚢𝚏𝚛𝚒𝚎𝚗𝚍 *${mdata.subject}*\n\n ━━━━━━━━━━━━━━━
 🥳 WELCOME 🫂`
 				let buff = await getBuffer(ppimg)
 				denz.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
@@ -158,7 +157,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `ɢᴏᴏᴅ ʙʏᴇ @${num.split('@')[0]}👋\n𝚂𝙴𝚃𝙷 𝙿𝙾𝚈𝙾 𝙱𝙸𝙴 𝙽𝙴𝙽𝙱𝙰⚰💀🕊️`
+				teks = `ɢᴏᴏᴅ ʙʏᴇ @${num.split('@')[0]}👋\n𝙰𝙽𝙹𝙰𝙻𝙸 𝚅𝙸𝚃𝚃𝚄 𝚂𝙴𝚃𝙷 𝙿𝙾𝚈𝙾 𝙱𝙸𝙴 𝙽𝙴𝙽𝙱𝙰⚰💀🕊️`
 				let buff = await getBuffer(ppimg)
 				denz.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -357,7 +356,7 @@ async function starts() {
         }
         if (adminNumber.includes(messagesLink)){
         	hasil = `        ────────────────
-ʜᴇʏ *${pushname2}* ᴛʀʏ ᴛʏᴘɪɴɢ *${prefix}menu*
+𝙼𝙾𝙽𝚄𝚂 *${pushname2}* 𝚃𝚈𝙿𝙴 𝙲𝙷𝚈𝚄𝙽𝙽𝚄 𝙼𝙾𝙽𝚄 𝚆𝙰𝙸𝚃 *${prefix}menu*
         ────────────────`
 denz.sendMessage(from, hasil, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "type #menu sis", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
 }
@@ -397,7 +396,7 @@ denz.sendMessage(from, hasil, text, {quoted: { key: { fromMe: false, participant
 ║🕯️ ᴘʀᴇғɪx: ${prefix}
 ║🎀 ᴜꜱᴇʀ ʀᴇɢɪsᴛᴇʀᴇᴅ: ${user.length}
 ║👹𝙾𝚆𝙽𝙴𝚁: 𝚂𝙸𝙳𝙷𝚄 𝚂𝙴𝚁 𝚑𝚝𝚝𝚙://𝚠𝚊.𝚖𝚎/918592026326
-║👺𝙲𝙾𝙾𝚆𝙽𝙴𝚁: 𝙹𝙾𝙴𝙻 𝚂𝙴𝚁 http://wa.me/917559907434
+║👺𝙲𝙾𝙾𝚆𝙽𝙴𝚁: 𝙹𝙾𝙴𝙻 𝚂𝙴𝚁 http://wa.me/919497513815
 ║🤯𝙵𝙾𝙻𝙻𝙾𝚆 𝙼𝙴 𝙾𝙽 𝙸𝙽𝚂𝚃𝙰: https://instagram.com/__death_shifter_?igshid=1v994kkilewk0
 ║👺𝙳𝙾𝙽'𝚃 𝙰𝚂𝙺 𝙵𝙾𝚁 𝙱𝙾𝚃 𝙻𝙸𝙽𝙺... 
 ╙───々
@@ -789,14 +788,19 @@ dmenu = `╓───「 *_sᴏɴɢ ᴍᴇɴᴜ_* 」
 ║🎶  ${prefix}𝚁𝙰𝚂𝙷𝙴𝙴𝙳
 ║🎶  ${prefix}𝚂𝙾𝚁𝚁𝚈
 ║🎶  ${prefix}𝙼𝙾𝙾𝙳𝙴𝚂𝙷
-║🎶  ${prefix}𝚃𝙷𝚈𝚁
+║🎶  ${prefix}𝙺𝚘𝚘𝚝𝚑𝚒
 ║🎶  ${prefix}𝙼𝚈𝚁
-║🎶  ${prefix}𝚅𝙰𝙻𝚈𝙰 𝙿𝚁𝙴𝚂𝙷𝙽𝙰𝙼
+║🎶  ${prefix}𝙺𝚘𝚘𝚝𝚑𝚒
 ║🎶  ${prefix}𝙶𝚄𝚂𝙷 𝙼𝙾𝚁𝙽𝙸𝙽𝙶
-║🎶  ${prefix}𝙿𝙰𝙻𝙰𝙶
+║🎶  ${prefix}𝙼𝚎𝚝
 ║🎶  ${prefix}𝙶𝙴𝚃𝙸𝚃
 ║🎶  ${prefix}𝚃𝙷𝚈𝙻𝙸
 ║🎶  ${prefix}𝙺𝙴𝙴𝙿 𝙸𝚃 𝚄𝙿
+║🎶  ${prefix}𝙼𝚘𝚘𝚔
+║🎶  ${prefix}𝙷𝚊𝚙𝚙𝚢
+║🎶  ${prefix}𝚄𝚖𝚖𝚊
+║🎶  ${prefix}𝙹𝚞𝚒𝚌𝚎
+║🎶  ${prefix}𝙴𝚜𝚑𝚠𝚊𝚛𝚊
 ║
 ║
 ║───「 *_ᴀᴜᴅɪᴏ ᴍᴇɴᴜ_* 」
@@ -2274,7 +2278,7 @@ case 'covid':
 					me = denz.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `➽ *𝐧𝐚𝐦𝐞 ʙᴏᴛ* : ${me.name}\n➽ *ᴏᴡɴᴇʀ ʙᴏᴛ* : 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍\n➽ *ᴘʀᴇғɪx* : | ${prefix} |\n➽ *ᴛᴏᴛᴀʟ ʙʟᴏᴄᴋ* : ${blocked.length}\n➽ *ᴀᴄᴛɪᴠᴇ sɪɴᴄᴇ* : ${kyun(uptime)}\n➽ *ᴛᴏᴛᴀʟ ᴜsᴇʀ* : ${user.length} ᴜꜱᴇʀ\n➽ *ɪɴꜱᴛᴀɢʀᴀᴍ* :  jocker.sis\n➽ *telegram* : jocker bro\n➽ *ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ* :\n➽ ɪʀғᴀɴ\n➽ 𝟒 𝟒 𝟒`
+					teks = `➽ *𝐧𝐚𝐦𝐞 ʙᴏᴛ* : ${me.name}\n➽ *ᴏᴡɴᴇʀ ʙᴏᴛ* : 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍\n➽ *ᴘʀᴇғɪx* : | ${prefix} |\n➽ *ᴛᴏᴛᴀʟ ʙʟᴏᴄᴋ* : ${blocked.length}\n➽ *ᴀᴄᴛɪᴠᴇ sɪɴᴄᴇ* : ${kyun(uptime)}\n➽ *ᴛᴏᴛᴀʟ ᴜsᴇʀ* : ${user.length} ᴜꜱᴇʀ\n➽ *ɪɴꜱᴛᴀɢʀᴀᴍ* :  instagram.com/__death_shifter_?igshid=1v994kkilewk0\n➽ *telegram* : https://t.me/sidhu_ser\n➽ *ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ* :\n➽ 𝚂𝙸𝙳𝙷𝚄 𝚂𝙴𝚁\n➽ 𝟒 𝟒 𝟒`
 					const daca = fs.readFileSync('dnsnew.jpg');
 				    denz.sendMessage(from, daca, image, {quoted: mek, caption: teks})
 				    brando = await getBuffer(`https://pencarikode.xyz/api/cita-cita?apikey=pais`, {method: 'get'})                
@@ -2744,7 +2748,7 @@ break
             await limitAdd(sender) 	
             break  
 
-                 case 'kalkulator':
+                 case 'calculator':
 					if (isBanned) return reply(mess.only.benned)    
 				   if (!isUser) return reply(mess.only.userB)
 				   				
@@ -4288,7 +4292,7 @@ quoted: mek, caption: `Hasil Dari *${daerah}*`
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag target yang ingin di tendang!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Orders received, issued :\n'
+						teks = 'Orders received, moonji you violated the grp rules :\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -4338,7 +4342,7 @@ quoted: mek, caption: `Hasil Dari *${daerah}*`
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('The target that you want to be an admin!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Orders accepted, you become admin :\n'
+						teks = 'Orders accepted, Congrats monu you become edmin :\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -4366,7 +4370,7 @@ quoted: mek, caption: `Hasil Dari *${daerah}*`
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('The Target that you want to not be an admin!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Orders accepted, you are not an admin :\n'
+						teks = 'Orders accepted, moonji you are not an edmin :\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -5637,42 +5641,84 @@ case 'husbu':
         }
         if (budy.includes("Thyli")){ 
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/mp3/AUD-20210506-WA0522.m4a')
+		const loli = fs.readFileSync('./mp3/thyli.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        const d = fs.readFileSync('./sticker/getin.webp');
+        const d = fs.readFileSync('./sticker/thyli.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
         if (budy.includes("thyli")){ 
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/mp3/AUD-20210506-WA0522.m4a')
+		const loli = fs.readFileSync('./mp3/thyli.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        const d = fs.readFileSync('./sticker/getin.webp');
+        const d = fs.readFileSync('./sticker/thyli.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("Palag")){ 
+        if (budy.includes("Juice")){ 
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/mp3/endiii.mp3')
+		const loli = fs.readFileSync('./mp3/juice.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        const d = fs.readFileSync('./sticker/getin.webp');
+        const d = fs.readFileSync('./sticker/juice.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("palag")){ 
+        if (budy.includes("juice")){ 
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/mp3/endiii.mp3')
+		const loli = fs.readFileSync('./mp3/juice.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/juice.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("Koothi")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/koothi.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/koothi.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("koothi")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/koothi.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/koothi.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("eshwara")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/eshwara.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/eshwara.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+         if (budy.includes("Eshwara")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/eshwara.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/eshwara.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("Mook")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/mook.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/mook.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+         if (budy.includes("mook")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/mook.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/mook.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("keep it up")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/keepitup.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         const d = fs.readFileSync('./sticker/getin.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
         if (budy.includes("keep it up")){ 
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/mp3/AUD-20210504-WA0409.mp3')
-        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        const d = fs.readFileSync('./sticker/getin.webp');
-        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
-        }
-        if (budy.includes("keep it up")){ 
-		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/mp3/AUD-20210504-WA0409.mp3')
+		const loli = fs.readFileSync('./mp3/keepitup.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         const d = fs.readFileSync('./sticker/getin.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
@@ -5735,7 +5781,7 @@ case 'husbu':
         }
         if (budy.includes("keli")){
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./keli.mp3')
+		const loli = fs.readFileSync('./djkeli.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         const d = fs.readFileSync('./sticker/keli.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
@@ -5754,7 +5800,7 @@ case 'husbu':
         const d = fs.readFileSync('./sticker/ara.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("ok")){
+        if (budy.includes("Ok")){
 		denz.updatePresence(from, Presence.composing)
 		const loli = fs.readFileSync('./mp3/ok.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -5924,7 +5970,7 @@ case 'husbu':
         }
         if (budy.includes("Keli")){
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./keli.mp3')
+		const loli = fs.readFileSync('./djkeli.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         const d = fs.readFileSync('./sticker/keli.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
@@ -5943,18 +5989,53 @@ case 'husbu':
         const d = fs.readFileSync('./sticker/ara.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("Ok")){
-		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/ok.mp3')
-        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        const d = fs.readFileSync('./sticker/ok.webp');
-        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
-        }
-        if (budy.includes("Line")){
+        if (budy.includes("Love")){
 		denz.updatePresence(from, Presence.composing)
 		const loli = fs.readFileSync('./mp3/line.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         const d = fs.readFileSync('./sticker/line.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+         if (budy.includes("happy")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/happy.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/happy.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("Happy")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/happy.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/happy.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+         if (budy.includes("Met")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/met.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/happy.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("met")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/met.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/happy.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("umma")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/umma.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/umma.webp');
+        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
+        }
+        if (budy.includes("Umma")){ 
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/umma.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const d = fs.readFileSync('./sticker/umma.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
         if (budy.includes("Anthas")){
@@ -6013,11 +6094,11 @@ case 'husbu':
         const d = fs.readFileSync('./sticker/rasheed.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("Sorry")){
+        if (budy.includes("love")){
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/sorry.mp3')
+		const loli = fs.readFileSync('./mp3/line.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        const d = fs.readFileSync('./sticker/sorry.webp');
+        const d = fs.readFileSync('./sticker/line.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
         if (budy.includes("modeesh")){
@@ -6034,7 +6115,6 @@ case 'husbu':
         const d = fs.readFileSync('./sticker/adithyan.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-     
         if (budy.includes("boong")){
 		denz.updatePresence(from, Presence.composing)
 		const loli = fs.readFileSync('./mp3/boong.mp3')
@@ -6088,12 +6168,12 @@ case 'husbu':
         const d = fs.readFileSync('./sticker/anjim.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("917559907434")){  // respon tag ubah aja
+        if (budy.includes("919497513815")){  // respon tag ubah aja
         reply(`*${pushname2}*, 𝚈𝙴𝚂 𝙹𝙾𝙴𝙻 𝚂𝙴𝚁 𝙷𝙴𝚁𝙴. 𝙽𝚃𝙷 𝚅𝙴𝙽𝙰𝙼 𝙼𝙾𝙽𝚄?`)
         const d = fs.readFileSync('./sticker/anjim.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("Joel")){  // respon tag ubah aja
+        if (budy.includes("Jocker")){  // respon tag ubah aja
         reply(`*${pushname2}*, 𝚈𝙴𝚂 𝙹𝙾𝙴𝙻 𝚂𝙴𝚁 𝙷𝙴𝚁𝙴. 𝙽𝚃𝙷 𝚅𝙴𝙽𝙰𝙼 𝙼𝙾𝙽𝚄?`)
         const d = fs.readFileSync('./sticker/anjim.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
@@ -6103,7 +6183,7 @@ case 'husbu':
         const d = fs.readFileSync('./sticker/anjim.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("joel")){  // respon tag ubah aja
+        if (budy.includes("Jocker")){  // respon tag ubah aja
         reply(`*${pushname2}*, 𝚈𝙴𝚂 𝙹𝙾𝙴𝙻 𝚂𝙴𝚁 𝙷𝙴𝚁𝙴. 𝙽𝚃𝙷 𝚅𝙴𝙽𝙰𝙼 𝙼𝙾𝙽𝚄?`)
         const d = fs.readFileSync('./sticker/anjim.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
@@ -6227,4 +6307,3 @@ denz.sendMessage(from, comd, text, {quoted: { key: { fromMe: false, participant:
 	})
 }
 starts()
-    
