@@ -2755,7 +2755,7 @@ break
                  break
                  case 'coowner':
                  denz.sendMessage(from, {displayname: "jeff", vcard: vcard1}, MessageType.contact, { quoted: mek})
-                 denz.sendMessage(from, '*_ᴛʜᴀᴛ’s ᴍʏ 𝙲𝙷𝚄𝙽𝙺 𝙹𝙾𝙴𝙻 𝚂𝙴𝚁/𝙹𝙾𝙲𝙺𝙴𝚁𝚂𝙴𝚁..ᴏʜʜ ᴍᴇᴀɴ 𝙰𝚂𝚂𝙸𝚂𝚃 ᴏᴡɴᴇʀ 𝙽𝙴𝙽𝙱𝙰𝙽 𝙾𝙵 𝚂𝙸𝙳𝙷𝚄𝚂𝙴𝚁_*',text, { quoted: mek} )
+                 denz.sendMessage(from, '*_ᴛʜᴀᴛ’s ᴍʏ 𝙴𝚇 𝙱𝙾𝚈𝙵𝚁𝙸𝙴𝙽𝙳 𝚅𝙸𝙹𝙾 𝚂𝙴𝚃𝚃𝙰𝙽/𝙹𝙾𝙲𝙺𝙴𝚁𝚂𝙴𝚁..ᴏʜʜ ᴍᴇᴀɴ 𝙰𝚂𝚂𝙸𝚂𝚃 ᴏᴡɴᴇʀ 𝙽𝙴𝙽𝙱𝙰𝙽 𝙾𝙵 𝚂𝙸𝙳𝙷𝚄𝚂𝙴𝚁_*',text, { quoted: mek} )
                  break
                 case 'fitnah':
                  if (isBanned) return reply(mess.only.benned)    
