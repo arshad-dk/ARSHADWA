@@ -5880,7 +5880,7 @@ case 'husbu':
         }
         if (budy.includes("ikka")){
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/Ikka.mp3')
+		const loli = fs.readFileSync('./mp3/ikka.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         const d = fs.readFileSync('./sticker/Ikka.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
@@ -6104,7 +6104,7 @@ case 'husbu':
         }
         if (budy.includes("Ikka")){
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/Ikka.mp3')
+		const loli = fs.readFileSync('./mp3/ikka.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         const d = fs.readFileSync('./sticker/Ikka.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
@@ -6375,10 +6375,10 @@ case 'husbu':
                   reply(`𝙱𝙰𝙳 𝚆𝙾𝚁𝙳 𝚃𝙴𝙻𝙻𝙰𝙻𝙴 𝙼𝙾𝙽𝚄 𝙀𝙉𝘿𝙄 𝙴𝙽𝙽𝚄 𝙿𝙰𝚁𝙰 *${pushname2}*`)
                   }
                   if (budy.includes(`bot`)) {
-                  reply(`𝚈𝙴𝚂𝙷 𝙸 𝙰𝙼 𝙹𝙾𝙲𝙺𝙴𝚁 𝙱𝙾𝚃.𝚅𝙴𝚁𝚂𝙸𝙾𝙽 444 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝚂𝙸𝙳𝙷𝚄 𝚂𝙴𝚁 *${pushname2}*`)
+                  reply(`𝚈𝙴𝚂𝙷 𝙸 𝙰𝙼 𝙹𝙾𝙲𝙺𝙴𝚁 𝙱𝙾𝚃.𝚅𝙴𝚁𝚂𝙸𝙾𝙽 444 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈  𝚂𝙸𝙳𝙷𝚄 𝚂𝙴𝚁 *${pushname2}*`)
                   }  
                   if (budy.includes(`Bot`)) {
-                  reply(`𝚈𝙴𝚂𝙷 𝙸 𝙰𝙼 𝙹𝙾𝙲𝙺𝙴𝚁 𝙱𝙾𝚃.𝚅𝙴𝚁𝚂𝙸𝙾𝙽 444 𝙲𝚁𝙴??𝚃??𝙳 𝙱𝚈 𝚂𝙸𝙳𝙷𝚄 𝚂𝙴𝚁 *${pushname2}*`)
+                  reply(`𝚈𝙴𝚂𝙷 𝙸 𝙰𝙼 𝙹𝙾𝙲𝙺𝙴𝚁 𝙱𝙾𝚃.𝚅𝙴𝚁𝚂𝙸𝙾𝙽 444 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈  𝚂𝙸𝙳𝙷𝚄 𝚂𝙴𝚁 *${pushname2}*`)
                   }  
                   if (budy.includes(`Thyr`)) {
                   reply(`𝙏𝙃𝙔𝙍 𝙰𝙻𝙻𝙰 𝙼𝙾𝙽𝚄𝚂𝙴 𝙈𝙔𝙍 𝙰𝙷𝙽𝚄 *${pushname2}*`)
