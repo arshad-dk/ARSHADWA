@@ -395,7 +395,7 @@ denz.sendMessage(from, hasil, text, {quoted: { key: { fromMe: false, participant
 ║🧾 ʀᴇᴄᴏᴅᴇ ʙʏ: 𝙹𝙾𝙲𝙺𝙴𝚁 ᴛᴇᴀᴍ/𝕊𝕀𝔻ℍ𝕌 ̶S̶E̶R ̶O̶F̶F̶I̶C̶I̶A̶L
 ║🕯️ ᴘʀᴇғɪx: ${prefix}
 ║🎀 ᴜꜱᴇʀ ʀᴇɢɪsᴛᴇʀᴇᴅ: ${user.length}
-║👹𝙾𝚆𝙽𝙴𝚁: 𝚂𝙸𝙳𝙷𝚄 𝚂𝙴𝚁 http://𝚠𝚊.𝚖𝚎/918592026326
+║👹𝙾𝚆𝙽𝙴𝚁: 𝚂𝙸𝙳𝙷𝚄 𝚂𝙴𝚁 http://wa.me/918592026326
 ║👺𝙲𝙾𝙾𝚆𝙽𝙴𝚁: 𝙹𝙾𝙺𝙴𝚁 𝚂𝙴𝚁 http://wa.me/919497513815
 ║🤯𝙵𝙾𝙻𝙻𝙾𝚆 𝙼𝙴 𝙾𝙽 𝙸𝙽𝚂𝚃𝙰: https://instagram.com/__death_shifter_?igshid=1v994kkilewk0
 ║👺𝙳𝙾𝙽'𝚃 𝙰𝚂𝙺 𝙵𝙾𝚁 𝙱𝙾𝚃 𝙻𝙸𝙽𝙺... 
@@ -759,6 +759,7 @@ dmenu = `╓───「 *_sᴏɴɢ ᴍᴇɴᴜ_* 」
 ║🎶  ${prefix}𝙽𝙰𝙽𝙱𝙰𝙽
 ║🎶  ${prefix}𝙹𝙰𝚂𝙸𝙼
 ║🎶  ${prefix}@𝕊𝕚𝕕𝕙𝕦❤️‍
+║🎶  ${prefix} 𝙰𝚒𝚜𝚑𝚠𝚞 😍
 ║🎶  ${prefix}𝙿𝙾𝚆𝙴𝚁
 ║🎶  ${prefix}𝚄𝚈𝙸𝚁
 ║🎶  ${prefix}𝙿𝙾𝙳𝙰
@@ -801,7 +802,6 @@ dmenu = `╓───「 *_sᴏɴɢ ᴍᴇɴᴜ_* 」
 ║🎶  ${prefix}𝚄𝚖𝚖𝚊
 ║🎶  ${prefix}𝙹𝚞𝚒𝚌𝚎
 ║🎶  ${prefix}𝙴𝚜𝚑𝚠𝚊𝚛𝚊
-║🎶  ${prefix} 𝙰𝚒𝚜𝚑𝚠𝚞 😍
 ║🎶  ${prefix}𝚕𝚎𝚟
 ║🎶  ${prefix}𝚂𝚝𝚘𝚛𝚢
 ║🎶  ${prefix}𝚂𝚎𝚝
@@ -812,6 +812,8 @@ dmenu = `╓───「 *_sᴏɴɢ ᴍᴇɴᴜ_* 」
 ║🎶  ${prefix}𝙿𝚑𝚘𝚗?
 ║🎶  ${prefix}𝙲𝚘𝚟𝚒𝚍
 ║🎶  ${prefix}𝚂𝚑𝚒𝚢𝚊𝚜
+║🎶  ${prefix}𝙱𝚐𝚖
+║🎶  ${prefix}𝙹𝚘𝚌𝚔𝚎𝚛
 ║
 ║  𝕊𝕀𝔻ℍ𝕌 𝕊𝔼ℝ 𝔒𝔉𝔉ℑℭℑ𝔄𝔏
 ║───「 *_ᴀᴜᴅɪᴏ ᴍᴇɴᴜ_* 」
@@ -3129,7 +3131,7 @@ break
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     denz.sendMessage('918592026326@s.whatsapp.net', options, text, {quoted: mek})
-                    reply('Problems have been reported to the BOT owner, false reports will not be responded to.')
+                    reply('Problems have been reported to the BOT owner monu onnu wait chy, false reports will not be responded to.')
                     break
                 case 'request':
                 if (isBanned) return reply(mess.only.benned)    
@@ -3146,7 +3148,7 @@ break
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     denz.sendMessage('918592026326@s.whatsapp.net', options, text, {quoted: mek})
-                    reply('YOUR REQUEST has arrived at the owner of the BOT, Fake requests/main2 will not be responded to.')
+                    reply('YOUR REQUEST has arrived at the owner of the BOT MONU ONNU WAIT CHY, Fake requests/main2 will not be responded to.')
                     break
 				case 'memeindo':
 				if (isBanned) return reply(mess.only.benned)    
@@ -5315,9 +5317,34 @@ case 'husbu':
 		reply(`*_「 ʟɪɴᴋ ɢʀᴜᴘ ᴅᴇᴛᴇᴄᴛᴇᴅ 」_*\nsᴏʀʀʏ ʏᴏᴜʀ, *${pushname2}* is putting group link!,\nʏᴏᴜ ᴀʀᴇ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ ᴋɪᴄᴋᴇᴅ ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ 𝙺..𝙱𝙸𝙴 𝙼𝙾𝙽𝚄 *${groupMetadata.subject}*`)
 		}, 0)
 		}
-		if (budy.includes("bot venda")){
+		if (budy.includes("bot")){
 		denz.updatePresence(from, Presence.composing)
-		const loli = fs.readFileSync('./mp3/hai.mp3')
+		const loli = fs.readFileSync('./mp3/jocker.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (budy.includes("Bot")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/jocker.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+		if (budy.includes("jocker")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/jocker.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (budy.includes("Jocker")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/jocker.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (budy.includes("bgm")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/bgm.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+         if (budy.includes("Bgm")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/bgm.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         }
 		if (budy.includes("anjali")){
@@ -6273,7 +6300,7 @@ case 'husbu':
         denz.sendMessage(from, d, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
         if (budy.includes("Killady")){  // respon tag ubah aja
-        reply(`*${pushname2}*, 𝙽𝙴 𝙿𝚄𝙻𝙻𝙰𝙳𝙸 𝙽𝙹𝙽 𝙺𝙸𝙻𝙻𝙰𝙳𝚈 𝙾𝙺𝙴𝙸?`)
+        reply(`*${pushname2}*, 𝙽𝙴 𝙿??𝙻𝙻𝙰𝙳𝙸 𝙽𝙹𝙽 𝙺𝙸𝙻𝙻𝙰𝙳𝚈 𝙾𝙺𝙴𝙸?`)
         const d = fs.readFileSync('./sticker/anjim.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
@@ -6397,6 +6424,12 @@ case 'husbu':
                   }
                   if (budy.includes(`tq`)) {
                   reply(`𝚃𝙷𝚇, 𝙼𝙾𝙽𝚄 *${pushname2}*, 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍 >-<`)
+                  }
+                  if (budy.includes(`Bgm`)) {
+                  reply(`ETTA ENNA PIDICHO BGM *${pushname2}*, 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍 >-<`)
+                  }
+                  if (budy.includes(`bgm`)) {
+                  reply(`ETTA ENNA PIDICHO BGM *${pushname2}*, 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍 >-<`)
                   }
                   if (budy.includes(`thq`)) {
                   reply(`ʏᴏᴜ ᴡᴇʟᴄᴏᴍᴇ, 𝙼𝙾𝙽𝚄 *${pushname2}*, 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍 >-<`)
