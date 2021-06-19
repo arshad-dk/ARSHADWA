@@ -4,7 +4,7 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('SIDHU SER UYIR', {
+CFonts.say('JOCKER BOT ', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -45,4 +45,4 @@ function start(file) {
   })
   // console.log(p)
 }
-start('luaser.js')
+start('denz.js')
