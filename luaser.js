@@ -75,7 +75,7 @@ const vcard1 = 'BEGIN:VCARD\n'
             + 'TEL;type=CELL;type=VOICE;waid=919497513815:+919497513815\n'
             + 'END:VCARD'
 
-prefix = "!"
+prefix = "."
 name = "JOCKER SER"
 rdaftar = "𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍"
 rmenu = "𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍"
@@ -6356,7 +6356,17 @@ case 'husbu':
 		const loli = fs.readFileSync('./mp3/jz.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
         }
-		if (budy.includes(`Thanks`)) {
+        if (budy.includes("alive")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/alive.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+        if (budy.includes("Alive")){
+		denz.updatePresence(from, Presence.composing)
+		const loli = fs.readFileSync('./mp3/alive.mp3')
+        denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        }
+		          if (budy.includes(`Thanks`)) {
                   reply(`ʏᴏᴜ ᴡᴇʟᴄᴏᴍᴇ, 𝚊𝚕𝚒𝚘 *${pushname2}*, 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍 >-<`)
                   }
                   if (budy.includes(`Welcome`)) {
@@ -6418,6 +6428,12 @@ case 'husbu':
                   }
                   if (budy.includes(`thanks`)) {
                   reply(`ʏᴏᴜ ᴡᴇʟᴄᴏᴍᴇ, 𝙼𝙾𝙽𝚄 *${pushname2}*, 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍>-<`)
+                  }
+                  if (budy.includes(`alive`)) {
+                  reply(`ENIIK JEEVAN IND MONU SIDHU SER ENE KILL CHYTHLA *${pushname2}*,`)
+                  }
+                  if (budy.includes(`Alive`)) {
+                  reply(`ENIIK JEEVAN IND MONU SIDHU SER ENE KILL CHYTHLA *${pushname2}*,`)
                   }
                   if (budy.includes(`welcome`)) {
                   reply(`ʏᴏᴜ ᴡᴇʟᴄᴏᴍᴇ, 𝙼𝙾𝙽𝚄 *${pushname2}*, 𝙅𝙊𝘾𝙆𝙀𝙍 𝙎𝙀𝙍>-<`)
