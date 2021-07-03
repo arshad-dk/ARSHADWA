@@ -21,7 +21,7 @@
 >pkg update && pkg upgrade
 >pkg install git -y
 > pkg install nodejs -y
-> git clone https://github.com/lmbsarbot9/viruswaap
+> git clone https://github.com/deathshifter29/Jockerwap
 ```
 
 ```bash
