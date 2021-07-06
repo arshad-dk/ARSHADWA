@@ -83,8 +83,7 @@ botinfo = "𝘼𝙍𝙎𝙃𝘼𝘿 𝙎𝙀𝙍"
 limitt = 999999999
 memberLimit = 1
 ban = []
-premium = ["917559837855@s.whatsapp.net","917559837855
-@s.whatsapp.net"]
+premium = ["917559837855@s.whatsapp.net","917559837855@ss.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -4366,7 +4365,7 @@ quoted: mek, caption: `Hasil Dari *${daerah}*`
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('The Target that you want to not be an admin!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '𝙉𝙄𝙉𝙉𝙊𝘿 𝙈𝘼𝙍𝙔𝘼𝙏𝙃𝘼𝙆𝙆 𝙋𝘼𝙍𝘼𝙉𝙅𝘼𝙏𝙃𝘼𝙇𝙇𝙀 ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴇᴅᴍɪɴ :\n'
+						teks = '𝙉𝙄𝙉𝙉𝙊𝘿 𝙈𝘼𝙍𝙔𝘼𝙏𝙃𝘼𝙆𝙆 𝙋𝘼𝙍𝘼𝙉𝙅𝘼𝙏𝙃𝘼𝙇𝙇𝙀 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴇᴅᴍɪɴ :\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
