@@ -25,7 +25,7 @@
 ```
 
 ```bash
-> cd Jockerwap
+> cd Arshadwap
 > bash install.sh
 ```
 
