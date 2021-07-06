@@ -21,11 +21,11 @@
 >pkg update && pkg upgrade
 >pkg install git -y
 > pkg install nodejs -y
-> git clone https://github.com/arshad-dk/Arshadwap
+> git clone https://github.com/arshad-dk/ARSHADWA
 ```
 
 ```bash
-> cd Arshadwap
+> cd ARSHADWA
 > bash install.sh
 ```
 
