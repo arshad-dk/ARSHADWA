@@ -21,7 +21,7 @@
 >pkg update && pkg upgrade
 >pkg install git -y
 > pkg install nodejs -y
-> git clone https://github.com/arshad-dk/Jockerwap
+> git clone https://github.com/arshad-dk/Arshadwap
 ```
 
 ```bash
@@ -39,5 +39,5 @@
 * [ KILLADY JOCKER FFC ](http://kckjoker.github.io) 
 
 ## Sosmed
-* [`Instagram admin`](https://www.instagram.com/__death_shifter_?r=nametag)
-* [`WhatsApp Admin`](http://wa.me/916282670349)
+* [`Instagram admin`](https://www.instagram.com/arshad_dk_?r=nametag)
+* [`WhatsApp Admin`](http://wa.me/917559837855)
