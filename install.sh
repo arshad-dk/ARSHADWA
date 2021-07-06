@@ -14,4 +14,4 @@ npm i @adiwajshing/baileys
 npm i github:adiwajshing/baileys
 
 echo "[*] All dependencies have been installed, please run the command \"npm start\" to immediately start the script"
-echo "Updates : by Sidhu ser offc"
+echo "Updates : by Arshad ser offc"
