@@ -21,11 +21,11 @@
 >pkg update && pkg upgrade
 >pkg install git -y
 > pkg install nodejs -y
-> git clone https://github.com/arshad-dk/ARSHADWA
+> git clone https://github.com/arshad-dk/ARSHADWA-BOT
 ```
 
 ```bash
-> cd ARSHADWA
+> cd ARSHADWA-BOT
 > bash install.sh
 ```
 
